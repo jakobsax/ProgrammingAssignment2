@@ -9,6 +9,7 @@
 
       ##This function creates a cached matrix cabable of storing variables for 
             #retrevial by other functions
+
 makeCacheMatrix <- function(x = matrix()) {
       i <- NULL
       set <- function(y) {
@@ -39,3 +40,4 @@ cacheSolve <- function(x, ...) {
       x$setinverse(i)
       i
       }
+
